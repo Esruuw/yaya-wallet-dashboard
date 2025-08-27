@@ -12,46 +12,46 @@ app.use(express.json());
 const transactions = [
   { 
     id: 1, 
-    name: "John Doe", 
+    name: "Esrael", 
     amount: 250, 
     status: "Completed",
-    date: "2023-10-15",
+    date: "2025-10-15",
     type: "Deposit",
     category: "Salary"
   },
   { 
     id: 2, 
-    name: "Jane Smith", 
+    name: "Kenean", 
     amount: 450, 
     status: "Pending",
-    date: "2023-10-16",
+    date: "2025-10-16",
     type: "Withdrawal",
     category: "Shopping"
   },
   { 
     id: 3, 
-    name: "Alice Johnson", 
+    name: "Kenna", 
     amount: 100, 
     status: "Failed",
-    date: "2023-10-14",
+    date: "2025-10-14",
     type: "Transfer",
     category: "Utilities"
   },
   { 
     id: 4, 
-    name: "Bob Brown", 
+    name: "Amen", 
     amount: 320, 
     status: "Completed",
-    date: "2023-10-13",
+    date: "2025-10-13",
     type: "Deposit",
     category: "Refund"
   },
   { 
     id: 5, 
-    name: "Charlie Wilson", 
+    name: "Heaven", 
     amount: 75, 
     status: "Completed",
-    date: "2023-10-12",
+    date: "2025-10-12",
     type: "Withdrawal",
     category: "Dining"
   },
@@ -67,4 +67,4 @@ app.get("/", (req, res) => {
 });
 
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
